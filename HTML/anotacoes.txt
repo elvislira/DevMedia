@@ -30,5 +30,26 @@ Formas compactas de margin:
 Centralizando objeto usando margin:
 - margin px auto
 
+Definindo bordas:
+- border-width (px)
+- border-style (solid, dashed, dotted) obrigatório
+- border-color
+- border [px] [style] [color] forma padrão
+- border [style] [color]
+- border [px] [style]
+- border [style]
+- border-top
+- border-bottom
+- border-right
+- border-left
 
+Definindo espaçamento interno:
+- padding (px)
+- padding-top
+- padding-bottom
+- padding-right
+- padding-left
 
+Formas compactas de padding:
+- padding [top] [right] [bottom] [left]
+- padding [top/bottom] [left/right]
