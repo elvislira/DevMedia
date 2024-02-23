@@ -53,3 +53,8 @@ Definindo espaçamento interno:
 Formas compactas de padding:
 - padding [top] [right] [bottom] [left]
 - padding [top/bottom] [left/right]
+
+Arredondamento de bordas:
+- border-radius (px)
+- border-radius [top-left] [top-right] [bottom-right] [bottom-left]
+- border-radius [top-left/bottom-right] [top-right/bottom-left]
