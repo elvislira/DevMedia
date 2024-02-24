@@ -58,3 +58,6 @@ Arredondamento de bordas:
 - border-radius (px)
 - border-radius [top-left] [top-right] [bottom-right] [bottom-left]
 - border-radius [top-left/bottom-right] [top-right/bottom-left]
+
+Aplicando dois estilos ao mesmo tempo:
+- Separar os elementos por vírgula
