@@ -10,7 +10,7 @@ Propriedades de texto:
 - line-height (px)
 
 Cor de fundo:
-background-color (nominal, rgb, hexadecimal)
+- background-color (nominal, rgb, hexadecimal)
 
 Sites para obter cores:
 - Mozilla
