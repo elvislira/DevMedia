@@ -1,0 +1,47 @@
+body {
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+div#dados-livro,
+div#descricao-historia,
+div#dados-autor {
+    border-bottom: 2px solid #D5D5D5;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+p {
+    line-height: 28px;
+    width: 90%;
+}
+
+img {
+    width: 15%;
+}
+
+a {
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #45B56F;
+    color: #FFFFFF;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+strong {
+    color: #333;
+}
