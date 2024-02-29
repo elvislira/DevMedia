@@ -15,7 +15,13 @@ Background:
 - background-image url('caminho_imagem')
 
 Estilizando imagem de fundo:
+- background-repeat (no-repeat, repeat-x, repeat-y)
+- background-position (left, center, right, top, bottom)
+- background-size (cover, contain, [width% height%], [widthpx heightpx])
+- background-attachment (fixed)
 
+Forma reduzida background:
+- background [cor] [url] [repeat] [position] [attachment]
 
 Sites para obter cores:
 - Mozilla
