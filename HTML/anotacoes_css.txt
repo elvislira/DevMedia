@@ -2,6 +2,7 @@ Propriedades de font:
 - font-size (px)
 - font-family (Arial, Verdana, Impact, Tahoma, etc...)
 - font-weight (normal, bold, 300, 400, ..., 900)
+- font-style (italic, normal)
 - color (nominal, rgb, hexadecimal)
 
 Propriedades de texto:
