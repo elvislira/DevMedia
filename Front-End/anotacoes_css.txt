@@ -72,3 +72,35 @@ Arredondamento de bordas:
 
 Aplicando dois estilos ao mesmo tempo:
 - Separar os elementos por vírgula
+
+Valores relativos à tela
+- vw = 1% da largura tela
+- vh = 1% da altura da tela
+
+Fazendo cálculos
+- calc(expressão a calcular)
+
+Largura mínima e máxima
+- min-width (px, %, vw/hw, calc)
+- max-width (px, %, vw/hw, calc)
+
+Altura mínima e máxima
+- min-height (px, %, vw/hw, calc)
+- max-height (px, %, vw/hw, calc)
+
+Exibindo rolagem em objetos
+- overflow (scroll, auto)
+- overflow-x (scroll, auto)
+- overflow-y (scroll, auto)
+- overflow [x] [y]
+
+Manipulando o mode exibição de um elemento
+- display (inline, block, none)
+
+Manipulando a visibilidade de um elemento
+- visibility (visible, hidden)
+
+Manipulando a transparência (opacidade) do elemento
+- opacity (0% a 100%)
+
+
