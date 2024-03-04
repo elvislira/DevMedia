@@ -1,0 +1,37 @@
+body {
+    background-color: #000;
+    color: #ff1415;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div {
+    width: 500px;
+    margin: 0px auto;
+    border: 2px solid #ff1415;
+    padding: 30px 60px 80px 60px;
+    text-align: center;
+}
+
+img {
+    width: 350px;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 28px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 80px;
+}
+
+a {
+    font-size: 18px;
+    text-decoration: none;
+    background-color: #ff1415;
+    color: #fff;
+    padding: 15px 40px;
+}
