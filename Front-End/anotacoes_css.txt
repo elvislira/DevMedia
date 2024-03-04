@@ -103,4 +103,8 @@ Manipulando a visibilidade de um elemento
 Manipulando a transparência (opacidade) do elemento
 - opacity (0% a 100%)
 
+Alterando a forma como o CSS calcula tamanho de elementos
+- box-sizing (border-box, content-box)
 
+Adicionando sombra em volta de elementos
+- box-shadow [xpx] [ypx] [desfoque px] [epansão px] [cor] [inset]
