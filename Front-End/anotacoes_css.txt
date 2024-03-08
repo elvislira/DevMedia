@@ -108,3 +108,10 @@ Alterando a forma como o CSS calcula tamanho de elementos
 
 Adicionando sombra em volta de elementos
 - box-shadow [xpx] [ypx] [desfoque px] [epansão px] [cor] [inset]
+
+Posicionando elementos na tela
+- position (fixed)
+- top (px)
+- bottom (px)
+- left (px)
+- right (px)
