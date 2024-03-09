@@ -110,7 +110,7 @@ Adicionando sombra em volta de elementos
 - box-shadow [xpx] [ypx] [desfoque px] [epansão px] [cor] [inset]
 
 Posicionando elementos na tela
-- position (fixed)
+- position (fixed, absolute, relative)
 - top (px)
 - bottom (px)
 - left (px)
