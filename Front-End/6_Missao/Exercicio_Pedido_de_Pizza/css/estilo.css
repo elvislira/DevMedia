@@ -38,7 +38,7 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 30px;
+    border-radius: 50%;
     background-color: #ff1500;
     color: #ffff00;
     position: absolute;
