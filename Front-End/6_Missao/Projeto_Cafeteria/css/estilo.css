@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.topo {
+    width: 100%;
+    position: fixed;
+    background-color: #604829;
+    color: #c4a47c;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.topo img {
+    width: 7vh;
+}
+
+.links-topo {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: #000 0.1em 0.2em;
+}
+
+.links-topo a {
+    text-decoration: none;
+    color: #c4a47c;
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../assets/parallax-imagem1.png');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Fraunces', serif;
+    font-size: 48px;
+    color: #fff;
+}
+
+.container-texto {
+    width: 50%;
+    margin: 30px auto;
+    text-align: justify;
+    line-height: 30px;
+    background-color: #fff;
+}
+
+.container-texto h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #c4a47c;
+    margin-top: 7vh;
+}
+
+.container-texto p {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #666;
+}
+
+.container-imagem {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Fraunces', serif;
+    font-size: 24px;
+    font-style: italic;
+    color: #fff;
+}
+
+.container-imagem h3 {
+    background-color: #604829;
+    padding: 10px 20px;
+}
+
+.container-imagem-contatos-horarios {
+    width: 100%;
+    height: 90vh;
+}
+
+.box-contatos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box-contatos h2, .contatos {
+    font-family: 'Oswald', sans-serif;
+    background-color: #604829;
+    color: #fff;
+    text-align: center;
+    width: 25%;
+    padding: 15px 40px;
+}
+
+.box-contatos h2 {
+    font-size: 24px;
+    letter-spacing: 5px;
+    margin-top: 30px;
+}
+
+.box-contatos iframe {
+    width: 65%;
+}
+
+.contatos {
+    font-size: 16px;
+    text-shadow: #000 0.1em 0.2em;
+    margin-bottom: 30px;
+}
+
+.box-horarios {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box-horarios h2 {
+    font-size: 18px;
+    letter-spacing: 7px;
+}
+
+.horarios-aberto {
+    color: #acacac;
+}
+
+.tarja-horarios {
+    width: 70%;
+    height: 1px;
+    border: 1px solid #acacac;
+}
+
+.destaque {
+    color: #c4a47c;
+}
+
+.box-horarios .lista-horarios {
+    font-size: 16px;
+    list-style-type: none;
+    width: 50%;
+}
+
+.box-horarios .lista-horarios li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5px;
+}
+
+.dias, .horarios-aberto {
+    width: 15%;
+}
+
+.dias {
+    text-align: left;
+}
+
+.horarios-aberto {
+    text-align: right;
+}
+
+.rodape {
+    width: 100%;
+    height: 10vh;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.rodape p {
+    padding: 5px;
+}
+
+.link-topo {
+    position: relative;
+}
+
+.seta {
+    position: absolute;
+    right: 30px;
+    top: -110px;
+}
+
+.parallax-img2 {
+    background-image: url('../assets/parallax-imagem2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.parallax-img3 {
+    background-image: url('../assets/parallax-imagem3.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.parallax-img4 {
+    background-image: url('../assets/parallax-imagem4.png');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.parallax-img5 {
+    background-image: url('../assets/cafeteria.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
