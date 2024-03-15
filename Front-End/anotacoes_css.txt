@@ -124,3 +124,6 @@ Posicionando elementos com Flexbox
   abreviação de flex-direction e flex-wrap
 - justify-content (space-around, center, space-between)
 - align-itens (center)
+
+Rolagem da tela
+- scroll-behavior (smooth)
