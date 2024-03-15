@@ -115,3 +115,12 @@ Posicionando elementos na tela
 - bottom (px)
 - left (px)
 - right (px)
+
+Posicionando elementos com Flexbox
+- display (flex)
+- flex-direction (row, column, row-reverse, column-reverse)
+- flex-wrap (wrap, nowrap, wrap-reverse)
+- flex-flow [flex-direction] [flex-wrap]
+  abreviação de flex-direction e flex-wrap
+- justify-content (space-around, center, space-between)
+- align-itens (center)
