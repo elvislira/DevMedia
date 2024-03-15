@@ -5,10 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AlfaTech</title>
     <link rel="stylesheet" href="css/index.css">
+    <!-- Fonte Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Topo -->
-    <div class="topo">
+    <div class="topo container">
         <div class="logo">
             <img src="assets/logo-icone.png" alt="Logo AlfaTech">
 
@@ -27,7 +31,7 @@
     </div>
 
     <!-- Banner -->
-    <div class="banner">
+    <div class="container banner">
         <div class="banner-texto">
             <p>Simples - Fácil de usar - 10x mais rápido</p>
 
@@ -42,7 +46,7 @@
     </div>
 
     <!-- Primeiro Anúncio -->
-    <div class="anuncio anuncio-primeiro">
+    <div class="anuncio container anuncio-primeiro">
         <div class="anuncio-texto">
             <h2>Hospede o seu site por apenas R$29 por mês.</h2>
 
@@ -57,10 +61,10 @@
     </div>
 
     <!-- Informações -->
-    <div class="informacoes" id="informacoes">
+    <div class="informacoes container" id="informacoes">
         <h2>Existem diversos serviços de hospedagem de sites. Porque você deve <span class="destaque">nos escolher?</span></h2>
 
-        <ul class="informacao-itens">
+        <ul class="informacoes-itens">
             <li>
                 <img src="assets/icone-engrenagens.png" alt="Engrenagem">
 
@@ -88,37 +92,53 @@
     </div>
 
     <!-- Planos -->
-    <div class="planos" id="planos">
-        <h2>Pague somente pelo que for usar. Sem cobranças adicionais!</h2>
+    <div class="planos container" id="planos">
+        <h2>Pague <span class="destaque">somente</span> pelo que for usar. Sem cobranças adicionais!</h2>
 
         <table class="tabela-precos">
             <thead>
                 <!-- Títulos -->
                 <tr>
-                    <th><h3>PESSOAL</h3></th>
-                    <th><h3>PROFISSIONAL</h3></th>
-                    <th><h3>EMPRESARIAL</h3></th>
-                    <th><h3>BIG TECHS</h3></th>
+                    <th>
+                        <h3>PESSOAL</h3>
+                        <img class="planos-icones" src="assets/pessoal-icone.png" alt="Pessoal">
+                        <p>Indicado para uso pessoal</p>
+                    </th>
+                    <th>
+                        <h3>PROFISSIONAL</h3>
+                        <img class="planos-icones" src="assets/equipe-icone.png" alt="Profissional">
+                        <p>Indicado para profissionais de T.I</p>
+                    </th>
+                    <th>
+                        <h3>EMPRESARIAL</h3>
+                        <img class="planos-icones" src="assets/empresa-icone.png" alt="Empresarial">
+                        <p>Indicado para empresas</p>
+                    </th>
+                    <th>
+                        <h3>BIG TECHS</h3>
+                        <img class="planos-icones" src="assets/big-tech.png" alt="Big Techs">
+                        <p>Indicado para grandes empresas</p>
+                    </th>
                 </tr>
+
+                <!-- Imagens -->
+                <!-- <tr>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+
+                <tr>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr> -->
             </thead>
 
             <tbody>
-                <!-- Imagens -->
-                <tr>
-                    <td><img class="planos-icones" src="assets/pessoal-icone.png" alt="Pessoal"></td>
-                    <td><img class="planos-icones" src="assets/equipe-icone.png" alt="Profissional"></td>
-                    <td><img class="planos-icones" src="assets/empresa-icone.png" alt="Empresarial"></td>
-                    <td><img class="planos-icones" src="assets/big-tech.png" alt="Big Techs"></td>
-                </tr>
-
                 <!-- Conteúdos -->
-                <tr>
-                    <td><p>Indicado para uso pessoal</p></td>
-                    <td><p>Indicado para profissionais de T.I</p></td>
-                    <td><p>Indicado para empresas</p></td>
-                    <td><p>Indicado para grandes empresas</p></td>
-                </tr>
-
                 <tr>
                     <td>1 usuário</td>
                     <td>10 usuários</td>
@@ -158,9 +178,9 @@
     </div>
 
     <!-- Segundo Anúncio -->
-    <div class="anuncio anuncio-segundo">
+    <div class="anuncio container anuncio-segundo">
         <div class="anuncio-texto">
-            <h2>Mais de 20.000 pessoas confiam na Spark! Seja um deles você também!</h2>
+            <h2>Mais de 20.000 pessoas confiam na Spark! <br>Seja um deles você também!</h2>
         </div>
 
         <div class="link-tabela-precos">
@@ -171,7 +191,7 @@
     </div>
 
     <!-- Rodapé -->
-    <div class="rodape" id="contato">
+    <div class="rodape container" id="contato">
         <div class="logo">
             <img src="assets/logo-icone.png" alt="Logo AlfaTech">
 
@@ -181,11 +201,14 @@
             </div>
         </div>
 
-        <p>Telefone & Whatsapp: (21) 99999-5555</p>
-        <p>E-mail: suporte@alfatech.com</p>
-        <p>Endereço: Av Ayrton Senna, 3000 - Barra da Tijuca - Rio de Janeiro</p>
-        <p>© AlfaTech - Soluções em hospedagem - Todos os direitos reservados</p>
-        <p>Desenvolvido por <span class="destaque">Elvis Lira</span></p>
+        <div class="rodape-contato">
+            <p>Telefone & Whatsapp: (21) 99999-5555</p>
+            <p>E-mail: suporte@alfatech.com</p>
+            <p>Endereço: Av Ayrton Senna, 3000 - Barra da Tijuca - Rio de Janeiro</p>
+            <p>© AlfaTech - Soluções em hospedagem - Todos os direitos reservados</p>
+        </div>
+        
+        <p class="dev">Desenvolvido por <span class="destaque">Elvis Lira</span></p>
     </div>
 </body>
 </html>
