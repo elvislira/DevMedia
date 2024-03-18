@@ -122,8 +122,9 @@ Posicionando elementos com Flexbox
 - flex-wrap (wrap, nowrap, wrap-reverse)
 - flex-flow [flex-direction] [flex-wrap]
   abreviação de flex-direction e flex-wrap
-- justify-content (space-around, center, space-between)
-- align-itens (center)
+- justify-content (flrx-start, flex-end, center, space-between, space-around, space-evenly)
+- gap (px)
+- align-itens (flex-start, flex-end, center, stretch)
 
 Rolagem da tela
 - scroll-behavior (smooth)
