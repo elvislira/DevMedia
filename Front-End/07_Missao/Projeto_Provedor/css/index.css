@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    font-size: 15px;
+    font-size: 16px;
     scroll-behavior: smooth;
 }
 
@@ -16,6 +16,8 @@
  display: flex;
  justify-content: space-around;
  align-items: center;
+ flex-wrap: wrap;
+ gap: 10px;
  background-color: #fff;
  color: #000;
  padding: 20px 30px;
@@ -32,13 +34,13 @@
 }
 
 .logo .titulo {
-    font-size: 30px;
+    font-size: 2em;
     font-weight: bold;
     color: #000;
 }
 
 .logo p {
-    font-size: 14px;
+    font-size: 0.8em;
     font-weight: bold;
     color: #2f86d6;
 }
@@ -49,7 +51,7 @@
     text-decoration: none;
     list-style-type: none;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 1.5em;
 }
 
 .links-topo a {
@@ -61,39 +63,41 @@
 /* Banner */
 .banner {
     width: 100%;
-    height: 400px;
+    padding: 15px 0;
     background-color: #2f86d6;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     color: #fff;
 }
 
 .banner .banner-texto p {
-    font-size: 16px;
+    font-size: 1em;
 }
 
 .banner .banner-texto h2 {
-    font-size: 27px;
+    font-size: 1.8em;
     margin: 15px 5px;
 }
 
 .banner .banner-texto, .banner img {
-    width: 30%;
+    flex: 1 1 300px;
 }
 
 /* Primeiro e Segundo Anúncio */
 .anuncio {
     width: 100%;
-    height: 120px;
+    padding: 15px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     color: #fff;
 }
 
 .anuncio h2 {
-    font-size: 24px;
+    font-size: 1.5em;
 }
 
 .anuncio .link-tabela-precos {
@@ -132,7 +136,7 @@
 /* Informações */
 .informacoes {
     width: 100%;
-    height: 400px;
+    padding: 15px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -141,7 +145,7 @@
 
 .informacoes h2, .informacoes span {
     width: 75%;
-    font-size: 30px;
+    font-size: 28px;
     text-align: center;
 }
 
@@ -155,7 +159,7 @@
 
 .informacoes-itens h3 {
     padding-bottom: 10px;
-    font-size: 16px;
+    font-size: 1.2em;
 }
 
 .informacoes-itens li {
@@ -171,7 +175,7 @@
 /* Planos */
 .planos {
     width: 100%;
-    height: 600px;
+    padding: 15px 0;
     background-color: #f1f3f7;
     display: flex;
     flex-direction: column;
@@ -180,12 +184,13 @@
 }
 
 .planos h2, .planos span {
-    font-size: 25px;
+    font-size: 28px;
     text-align: center;
 }
 
 .planos .tabela-precos {
-    width: 45%;
+    margin: 20px 0;
+    width: 40%;
     height: 70%;
     text-align: center;
     box-shadow: 0 0 30px 15px #2f86d6;
@@ -196,7 +201,7 @@
 }
 
 .planos .tabela-precos thead th p {
-    font-size: 12px;
+    font-size: 0.8em;
     color: #d5b99f;
 }
 
@@ -212,7 +217,6 @@
 
 .planos-icones {
     width: 80px;
-    margin: 10px auto;
 }
 
 /* Rodapé */
