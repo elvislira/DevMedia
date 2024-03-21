@@ -135,3 +135,6 @@ Propriedades dos elementos filho
 - flex-shrink (0, 1 padrão, 2, 3 ...)
 - flex-basis (px) largura ou altura inicial
 - flex [flex-grow] [flex-shrink] [flex-basis]
+
+
+
