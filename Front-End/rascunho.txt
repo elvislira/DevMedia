@@ -1,0 +1,16 @@
+TEXTO DA SEÇÃO BANNER
+
+<titulo> Star Trek
+
+<link> Siga meu canal no YouTube - https://www.youtube.com/@StarTrekOfficial
+<link> Me siga no Instagram - https://www.instagram.com/startrek/
+<link> Me siga no Twitter - https://twitter.com/startrek?lang=pt
+<link> Me siga no Facebook - https://www.facebook.com/StarTrek/?locale=pt_BR
+<link> Me siga na Twitch - https://www.twitch.tv/directory/category/star-trek-online
+
+
+TEXTO DA SEÇÃO ESTATÍSTICAS
+
+<subtitulo> Estatísiticas
+
+https://pt.wikipedia.org/wiki/Star_Trek
