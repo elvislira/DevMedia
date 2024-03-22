@@ -44,25 +44,38 @@ header .topo nav a:hover {
 
 /* Capa */
 main .capa {
+    position: relative;
     width: 100%;
-    height: 45vh;
+    height: 100%;
+    text-align: center;
     background-image: url('../assets/bg-estacao.png');
-    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
 main .capa div {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-transform: uppercase;
+    padding: 60px 20px;
+    z-index: 1;
+}
+
+main .capa::before {
+    content: "";
     width: 100%;
     height: 100%;
     background-color: #000;
     opacity: 0.5;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-transform: uppercase;
-    font-weight: bold;
-    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 main .capa h1 {
@@ -71,6 +84,13 @@ main .capa h1 {
 
 main .capa p {
     font-size: 2em;
+}
+
+main .capa h1,
+main .capa p {
+    color: #fff;
+    margin: 0;
+    text-shadow: 1px 1px 5px #000;
 }
 
 /* Título e imagem da section */
