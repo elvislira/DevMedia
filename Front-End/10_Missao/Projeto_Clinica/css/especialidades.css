@@ -1,0 +1,66 @@
+/* Estilos da página Especialidades */
+
+.links {
+    margin: 15px 0;
+}
+.links a {
+    text-decoration: none;
+    padding: 20px 0 2px;
+    margin: 0 10px;
+    border-bottom: 1px solid #00d5ff;
+    color: #a09f9f;
+    font-weight: bold;
+}
+
+.links a:hover {
+    color: #1e8c96;
+}
+
+.especialidades {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+}
+
+.especialidades img {
+    width: 30%;
+}
+
+.especialidades table {
+    width: 70%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+.especialidades .tabela thead tr {
+    background-color: #00d5ff;
+    color: #fff;
+    font-weight: bold;
+}
+
+.especialidades .tabela tbody tr:nth-of-type(odd) {
+    background-color: #d4d1d1;
+}
+
+th, td {
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    .especialidades img {
+        display: none;
+    }
+
+    .especialidades .tabela {
+        width: 100%;
+        margin: 0 10px;
+    }
+}
+
+@media (max-width: 425px) {
+    .especialidades .tabela {
+        width: 100%;
+        margin: 0;
+    }
+}
+
