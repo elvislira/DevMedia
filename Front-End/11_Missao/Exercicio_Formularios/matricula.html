@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faculdade - Matrícula</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Faculdade</h1>
+    </header>
+
+    <main>
+        <section class="formulario">
+            <h2>Matrícula</h2>
+    
+            <p>
+                Preencha os campos abaixo para criar a sua matrícula e seu cadastro no ambiente virtual da faculdade.
+            </p>
+    
+            <form action="https://www.devmedia.com.br/codigos/formularios/aula3/">
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome" required minlength="5" maxlength="50" placeholder="Digite se nome completo">
+                
+                <label for="data_nascimento">Data de Nascimento</label>
+                <input type="date" max="2006-04-02" name="data_nascimento" id="data_nascimento">
+
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" placeholder="Informe seu e-mail">
+
+                <label for="telefone">Telefone</label>
+                <input type="tel" name="telefone" id="telefone" placeholder="Informe seu telefone">
+
+                <label for="dia_vencimento">Melhor dia para vencimento</label>
+                <input type="number" min="5" max="30" name="dia_vencimento" id="dia_vencimento" placeholder="Qual melhor dia de vencimento?">
+
+                <label for="login">Login</label>
+                <input type="text" name="login" id="login">
+
+                <label for="senha">Senha</label>
+                <input type="password" name="senha" id="senha">
+    
+                <button type="submit">Enviar matrícula</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido para testar envio por form</p>
+    </footer>
+</body>
+</html>

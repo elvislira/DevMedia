@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionário</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Questionário</h1>
+    </header>
+
+    <main>
+        <section class="formulario">
+            <h2>Questionário</h2>
+    
+            <p>
+                Responda o questionário abaixo marcando as opções que correspondem as suas preferências por jogos.
+            </p>
+    
+            <form action="https://www.devmedia.com.br/codigos/formularios/aula5/">
+                <div class="categoria">
+                    <h2>Quais plataformas de jogos você utiliza?</h2>
+
+                    <div>
+                        <div class="check-opcoes">
+                            <input type="checkbox" name="plataformas[]" id="ckeck-xbox" value="Xbox">
+                            <label for="ckeck-xbox">Xbox</label>
+                        </div>
+
+                        <div class="check-opcoes">
+                            <input type="checkbox" name="plataformas[]" id="ckeck-playstation" value="PlayStation">
+                            <label for="ckeck-playstation">PlayStation</label>
+                        </div>
+
+                        <div class="check-opcoes">
+                            <input type="checkbox" name="plataformas[]" id="ckeck-switch" value="Switch">
+                            <label for="ckeck-switch">Switch</label>
+                        </div>
+
+                        <div class="check-opcoes">
+                            <input type="checkbox" name="plataformas[]" id="ckeck-stadia" value="Stadia">
+                            <label for="ckeck-stadia">Stadia</label>
+                        </div>
+
+                        <div class="check-opcoes">
+                            <input type="checkbox" name="plataformas[]" id="ckeck-pc" value="PC">
+                            <label for="ckeck-pc">PC</label>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="categoria">
+                    <h2>Quais seus gêneros de jogos preferidos?</h2>
+
+                    <div>
+                        <div class="check-opcoes">
+                            <input type="checkbox" name="generos[]" id="ckeck-acao" value="Ação">
+                            <label for="ckeck-acao">Ação</label>
+                        </div>
+
+                        <div class="check-opcoes">
+                            <input type="checkbox" name="generos[]" id="ckeck-aventura" value="Aventura">
+                            <label for="ckeck-aventura">Aventura</label>
+                        </div>
+
+                        <div class="check-opcoes">
+                            <input type="checkbox" name="generos[]" id="ckeck-plataforma" value="Plataforma">
+                            <label for="ckeck-plataforma">Plataforma</label>
+                        </div>
+
+                        <div class="check-opcoes">
+                            <input type="checkbox" name="generos[]" id="ckeck-rpg" value="RPG">
+                            <label for="ckeck-rpg">RPG</label>
+                        </div>
+
+                        <div class="check-opcoes">
+                            <input type="checkbox" name="generos[]" id="ckeck-tiro" value="Tiro">
+                            <label for="ckeck-tiro">Tiro</label>
+                        </div>
+
+                        <div class="check-opcoes">
+                            <input type="checkbox" name="generos[]" id="ckeck-corrida" value="Corrida">
+                            <label for="ckeck-corrida">Corrida</label>
+                        </div>
+                    </div>
+                </div>
+
+                <button type="submit">Enviar questionário</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido para testar envio por form</p>
+    </footer>
+</body>
+</html>
