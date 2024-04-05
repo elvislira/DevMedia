@@ -1,0 +1,295 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #80808029;
+    min-width: 368px;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+/* Cabeçalho */
+header {
+    width: 100%;
+    height: 55px;
+    background-color: #fff;
+}
+
+.cabecalho {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+/* Topo */
+.icone-topo {
+    width: 32px;
+    height: 32px;
+}
+
+.cabecalho h1 {
+    font-size: 24px;
+    color: #5d15d1;
+    margin-left: 10px;
+}
+
+/* Main */
+main {
+    width: 100%;
+}
+
+/* Seção Formulario */
+.secao-formulario {
+    width: 100%;
+    height: auto;
+    background-image: url('../assets/bahia.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+}
+
+.titulo-form {
+    width: 100%;
+    height: 35px;
+    background-color: #5d15d1;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.titulo-form img {
+    width: 20px;
+    height: 20px;
+    transform: rotate(-45deg);
+    margin-right: 5px;
+}
+
+/* Formulario */
+.formulario {
+    width: 100%;
+    background-color: #fff;
+    padding: 30px 25px 20px;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+}
+
+.formulario h3 {
+    font-size: 22px;
+    padding-bottom: 24px;
+}
+
+.formulario form fieldset {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.formulario form fieldset legend {
+    font-weight: bold;
+}
+
+.datas, .locais {
+    display: flex;
+    justify-content: space-between;
+}
+
+.datas div, .locais div {
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+}
+
+input, select {
+    height: 32px;
+    margin: 10px 0;
+    padding: 5px;
+}
+
+.opcoes {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.opcoes-itens {
+    display: flex;
+    align-items: center;
+}
+
+.opcoes-itens label {
+    width: 120px;
+    margin-left: 8px;
+}
+
+.opcoes-itens input {
+    width: 15px;
+}
+
+.botao-solicitar {
+    width: 160px;
+    height: 32px;
+    background-color: #5d15d1;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+/* Seção Ofertas */
+.ofertas {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+}
+
+.subtitulos-secao h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.subtitulos-secao p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.ofertas-imagens {
+    width: 100%;
+    height: 375px;
+    display: flex;
+    gap: 10px;
+}
+
+.img-destaque {
+    width: calc(50% - 10px);
+    height: 100%;
+    display: flex;
+    position: relative;
+}
+
+.img-destaque img {
+    width: 100%;
+    height: 100%;
+}
+
+.img-secundarias {
+    width: calc(50% - 10px);
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.img-secundarias div {
+    width: calc(50% - 10px);
+    height: 50%;
+    display: flex;
+    position: relative;
+}
+
+.img-secundarias div figure img {
+    width: 100%;
+    height: 100%;
+}
+
+.ofetas-img-legenda {
+    position: absolute;
+    width: 50%;
+    left: 0;
+    bottom: -12px;
+    color: #fff;
+    background-color: #00000044;
+    font-size: 16px;
+    padding: 5px 10px;
+}
+
+/* Anuncios */
+.anuncios {
+    width: 100%;
+    margin-top: 32px;
+}
+
+.anuncios-imagens {
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 10px;
+}
+
+.anuncios-imagens div {
+    width: calc(50% - 10px);
+    height: 100%;
+}
+
+.anuncios-imagens div img {
+    width: 100%;
+    height: 100%;
+}
+
+.anuncio-card div {
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    font-size: 16px;
+}
+
+.anuncio-card div p {
+    color: #808080;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+/* Rodapé */
+footer {
+    width: 100%;
+    margin-top: 32px;
+    background-color: #5d15d1;
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.rodape .rodape-painel {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+}
+
+.rodape .rodape-painel h2 {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.rodape .rodape-painel div {
+    display: flex;
+    margin: 5px 0;
+}
+
+.rodape .rodape-painel div span {
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.contato-icone {
+    width: 18px;
+}
+
