@@ -1,0 +1,17 @@
+- Instalando http-server
+    npm install --global http-server
+
+- Executando http-server
+    http-server -o [arquivo.html]
+
+- Instalando o live-server
+    npm install --global live-server
+
+Executando o live-server no diretório atual
+    live-server --open=.
+
+Instalando vercel
+    npm install --global vercel
+
+Colocando site em produção
+    vercel --prod
