@@ -1,0 +1,23 @@
+- Estrutura base
+    programa
+    {
+        funcao inicio()
+        {
+            escreva("Hello world!!!")
+        }
+    }
+
+- Entrada via teclado
+    leia(variavel)
+
+- Declaração de variáveis
+    tipo variavel
+
+- Tipos de variáveis
+    Numéricos:  inteiro     - inteiro
+                real        - inteiros e fracionários
+    Literal:    caracter    - apenas 1 caracter
+                cadeia      - cadeia de caracteres
+    Lógico:     logico      - verdadeiro ou falso
+
+
