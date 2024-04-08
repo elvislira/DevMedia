@@ -20,4 +20,71 @@
                 cadeia      - cadeia de caracteres
     Lógico:     logico      - verdadeiro ou falso
 
+- se/senao
+    se(condicao)
+    {
+        condicao_verdadeira
+    }
+    senao
+    {
+        condicao_falsa
+    }
 
+- se/senao se
+    se(condicao)
+    {
+        condicao_verdadeira
+    }
+    senao se(condicao)
+    {
+        condicao_falsa
+    }
+    senao
+    {
+        condicao_falsa
+    }
+
+- escolha/caso
+    escolha(variavel)
+    {
+        caso 1:
+            ...
+            pare
+        caso 2:
+            ...
+            pare
+        caso ...
+            pare
+        caso contrario:
+            ...
+            pare
+    }
+
+    obs: variavel pode ser inteiro ou caracter
+
+- Operadores relacionais
+    >
+    >=
+    <
+    <=
+    ==
+    !=
+
+- Operadores lógicos
+    e
+    ou
+    nao
+
+
+
+cadeia
+caracter
+escreva
+leia
+leia(idade)
+escreva
+se(tem_filhos == 'S')
+se
+senao
+se
+tem_filhos
