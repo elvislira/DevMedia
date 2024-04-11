@@ -75,16 +75,21 @@
     ou
     nao
 
+- enquanto
+    enquanto (condicao)
+    {
+        ...
+    }
 
+- faca/enquanto
+    faca
+    {
+        ...
+    }
+    enquanto(condicao)
 
-cadeia
-caracter
-escreva
-leia
-leia(idade)
-escreva
-se(tem_filhos == 'S')
-se
-senao
-se
-tem_filhos
+- para
+    para(inteiro contador=inicio; condicao; incremento)
+    {
+        ...
+    }
