@@ -1,0 +1,20 @@
+- Tipos
+    string
+    number
+    boolean (true/false)
+    undefined
+    null
+
+- Objeto literal
+    var objeto {
+        chave1: valor1,
+        chave2: valor2,
+        ...
+    }
+
+- Coleção de objetos
+    var colecao_objetos = [
+        {chave1: valor1, chave2: valor2},
+        {...},
+        ...
+    ]
