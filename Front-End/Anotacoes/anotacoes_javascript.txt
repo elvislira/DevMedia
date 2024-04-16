@@ -82,3 +82,31 @@
     obs.: 
         1. Ao tentar acessar um íncide inexistente reornta undefined.
         2. colecao.length para obter o tamanho do array.
+
+- while
+    while (condicao) {
+        ....
+    }
+
+- break/continue
+
+- do..while
+    do {
+        ...
+    } while (condicao)
+
+- for
+    for (let contador=inicio; condicao; incremento/decremento) {
+        ...
+    }
+
+- for..in (percorrer propriedades de um objeto)
+    for (let propriedade in objeto) {
+        console.log(objeto[propriedade])
+    }
+
+- for..of
+    for (let objeto of colecao) {
+        objeto.propriedade
+        ....
+    }
