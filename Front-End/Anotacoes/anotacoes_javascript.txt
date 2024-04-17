@@ -110,3 +110,55 @@
         objeto.propriedade
         ....
     }
+
+- Manipulação de strings
+    * Template string
+        var texto = ` Esse é
+        um texto de multiplas
+        linhas.
+        `
+        var outroTexto = `Nome do aluno: ${nome}`
+
+    * Tamnaho da string
+        string.length
+
+    * Maiúsculas/Minúsculas
+        toLowerCase()
+        toUpperCase()
+
+    * Removendo espaços
+        trim()
+    
+    * Preenchendo strings
+        padStart(quantidade, "caracter")
+        padEnd(quantidade, "caracter")
+    
+    * Substituindo partes do texto
+        replace(texto_antigo, texto_novo)
+    
+    * Retornando partes de uma string
+        substr(pos_inicial, qtd_caracteres) --> descontinuado
+        substring(pos_inicial, pos_final)
+
+    * Procurando uma string dentro de uma string
+        indexOf(string) --> retorna o índice, -1 se não achar
+
+    * Quebrando string em partes
+        split("string_de_quebra")
+
+- Manipulando datas
+    * Data atual
+        let data = new Date()
+
+    * Retornando:
+        Ano:        getFullYear()
+        Mês:        getMonth()  --> 0 à 11
+        Dia:        getDate()   --> dia do mês
+        Dia:        getDay()    --> dia da semana (0 à 6)
+        Hora:       getHours()  --> hora 0 à 23
+        Minutos:    getMinutes()
+        Segundos:   getSeconds()
+        Miliseg..:  getMilliseconds()
+        Timestamp:  getTime()
+        Dif. UTC:   getTimezoneOffset() --> diferença em min para UTC.
+        Valor Prim  valueOf() --> valor primitivo de um objeto (Date é timestamp)
