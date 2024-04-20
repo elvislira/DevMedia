@@ -25,3 +25,22 @@
     const somarValores = (total, valor) => total + valor;
     let numeros = [1, 2, 3, 4, 5];
     let valorTotal = numeros.reduce(somarValores, 0);
+
+- sort() - retorna um array ordenado
+    * ordenação alfabética
+        let letras = ["C", "A", "F", "B", "X", "D"];
+        letras.sort();
+        console.log(letras);
+    * ordenação numérica
+        const ordenarNUmeros = (x, y) => x - y; --> <0 x,y >0 y, x
+        let numeros = [10, 8, 5, 11, 9, 2, 6, 1];
+        numeros.sort(ordenarNUmeros);
+    * ordenação de objetos
+        const ordenarObjetos = (x, y) => x.pontos - y.pontos;
+        let times = [
+            {equipe: 'Time Azul', pontos: 25 },
+            {equipe: 'Time Verde', pontos: 47 },
+            {equipe: 'Time Amarelo', pontos: 39 },
+            {equipe: 'Time Vermelho', pontos: 16 },
+        ];
+        times.sort(ordenarObjetos);
