@@ -1,0 +1,15 @@
+Principais características do React.js:
+
+    1. Utiliza como base as linguagens HTML, CSS e JavaScript;
+    2. Utiliza o conceito de componentes para criar as páginas;
+    3. Cria Single Page Applications (SPAs).
+
+Extensão do arquivo react: .jsx
+
+Funções criadas em react pode conter HTML.
+
+SPA (Single Page Application - Aplicação de Página Única)
+    Permite mudar seu conteúdo sem recarregar a página.
+
+
+
