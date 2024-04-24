@@ -1,0 +1,95 @@
+- Criando objetos Date
+    let variavel = new Date()
+    let variavel = new Date('2023-04-18');
+
+- Manipulando datas
+    * Data atual
+        let data = new Date()
+
+    * Retornando:
+        # Number:
+            Ano:        getFullYear()
+            Mês:        getMonth()  --> 0 à 11
+            Dia:        getDate()   --> dia do mês
+            Dia:        getDay()    --> dia da semana (0 à 6)
+            Hora:       getHours()  --> hora 0 à 23
+            Minutos:    getMinutes()
+            Segundos:   getSeconds()
+            Miliseg..:  getMilliseconds()
+            Timestamp:  getTime()
+            Dif. UTC:   getTimezoneOffset() --> diferença em min para UTC.
+            Valor Prim  valueOf() --> valor primitivo de um objeto (Date é timestamp)
+
+        #String
+            toDateString()          --> apenas a data
+            toTimeString()          --> apenas a hora
+            toString()              --> data e hora
+            toISOString()           --> formato universal (ISO 8601)
+            toLocaleString()        --> apenas a data e o tempo
+            toLocaleDateString()    --> apenas data
+            toLocaleTimeString()    --> tempo apenas
+            --- Personalizando ---
+            toLocaleString('en-US', options)
+            toLocaleDateString('en-US', options)
+            toLocaleTimeString('en-US', options)
+
+            const options = {
+                weekday: 'long',
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric'
+            };
+            toLocaleString('en-US', options);
+
+            const options {
+                hour: '2-digit',
+                minuto: '2-digit',
+                second: '2-digit'
+            };
+            toLocaleTimeString('pt-br', options);
+
+            const options {
+                hour: '2-digit',
+                minuto: '2-digit',
+                second: '2-digit',
+                weekday: 'long',
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric'
+            };
+            toLocaleString('pt-br', options);
+
+            * Options
+            toLocaleString/toLocaleDateString --------
+            weekday:    long    --> segunda-feira
+                        short   --> seg
+                        narrow  --> S
+            day:        numeric --> 1
+                        2-digit --> 01
+            month:      numeric --> 2
+                        2-digit --> 02
+                        long    --> Março
+                        short   --> Mar
+                        narrow  --> M
+            year:       numeric --> 2024
+                        2-digit --> 24
+            dateStyle:  full    --> segunda-feira, 15 de abril de 2024
+                        long    --> 15 de abril de 2024
+                        medium  --> 15 de abr. de 2024
+                        short   --> 15/04/2024
+            toLocaleString/toLocaleTimeString --------
+            hour/minute/second: numeric --> 1
+                                2-digit --> 01
+            timeStyle:  full    --> 10:45:08 Horário Padrão de Brasília
+                        long    --> 10:45:08 BRT
+                        medium  --> 10:45:08
+                        short   --> 10:45
+    * Alterando:
+        Ano:        setFullYear(2024)
+        Mês:        setMonth(5)  --> 0 à 11
+        Dia:        setDate(20)   --> dia do mês
+        Hora:       setHours(11)  --> hora 0 à 23
+        Minutos:    setMinutes(9)
+        Segundos:   setSeconds(45)
+        Miliseg..:  setMilliseconds(15)
+        Timestamp:  setTime(885541254240)

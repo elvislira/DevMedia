@@ -1,0 +1,23 @@
+- Listas Ordenadas
+<ol type...>
+    <li></li>
+</ol>
+type="1" - numérica (padrão)
+type="a" - alfabética minúscula
+type="A" - alfabética maiúscula
+type="i" - numerais romanos minúsculos
+type="I" - numerais romanos maiúsculos
+
+start="valor" - define o início da numeração da lista
+
+reversed - inverte a ordem da lista
+
+- Listas Não Ordenadas
+<ul type...>
+    <li></li>
+</ul>
+type="disc" - bolinha cheia (padrão)
+type="square" - quadrados
+type="circle" - bolinha vazia
+type="none" - remove o marcador
+

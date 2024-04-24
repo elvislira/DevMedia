@@ -1,0 +1,18 @@
+- Media Types [css2]
+
+@media screen {
+    body {
+        color: blue;
+    }
+}
+@media print {
+    body {
+        color: red;
+    }
+}
+
+- Media Queries [css3]
+
+@media [not|only] [media type] and ([query]) {
+       estilos
+}
