@@ -1,0 +1,9 @@
+.container_card {
+    width: 20%;
+    height: 45%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #ada4a4;
+}
