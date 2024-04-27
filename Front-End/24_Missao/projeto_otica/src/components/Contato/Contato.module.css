@@ -1,0 +1,64 @@
+.contato {
+    width: 100%;
+    background-color: #05031b;
+}
+
+.contato_container {
+    max-width: 1024px;
+    padding: 100px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    margin: 0 auto;
+    color: #ffffff;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.texto h3 {
+    font-size: 20px;
+}
+
+.redes_contato {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+    }
+}
+
+.redes_contato img {
+    width: 24px;
+    height: 24px;
+}
+
+.old_contatos, .redes_sociais {
+    width: 50%;
+    max-width: 350px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.old_contatos div, .redes_sociais div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.old_contatos h3, .redes_sociais h3 {
+    font-size: 16px;
+}

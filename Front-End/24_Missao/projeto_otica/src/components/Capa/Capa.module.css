@@ -1,0 +1,39 @@
+.container_capa {
+    width: 100%;
+    height: 90vh;
+    background-image: url('../../../public/capa.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.container_texto {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.box_texto {
+    max-width: 500px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #c4c4c4;
+}
+
+.box_texto h1 {
+    font-size: 45px;
+    text-transform: uppercase;
+    color: #ffffff;
+
+    @media (max-width: 768px) {
+        font-size: 36px;
+    }
+}
+
+.box_texto p {
+    font-size: 23px;
+}
