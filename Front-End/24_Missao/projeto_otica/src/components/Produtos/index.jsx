@@ -1,8 +1,8 @@
 import estilos from './Produtos.module.css';
-import oculo1 from '../../../public/oculos01.png';
-import oculo2 from '../../../public/oculos02.png';
-import oculo3 from '../../../public/oculos03.png';
-import oculo4 from '../../../public/oculos04.png';
+import oculo1 from '/public/oculos01.png';
+import oculo2 from '/public/oculos02.png';
+import oculo3 from '/public/oculos03.png';
+import oculo4 from '/public/oculos04.png';
 import Image from 'next/image';
 
 

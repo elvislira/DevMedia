@@ -1,10 +1,10 @@
 import estilos from './Contato.module.css';
-import Local from '../../../public/local.png';
-import Telefone from '../../../public/telefone.png';
-import Email from '../../../public/email.png';
-import Fb from '../../../public/fb.png';
-import Ig from '../../../public/ig.png';
-import Tt from '../../../public/tt.png';
+import Local from '/public/local.png';
+import Telefone from '/public/telefone.png';
+import Email from '/public/email.png';
+import Fb from '/public/fb.png';
+import Ig from '/public/ig.png';
+import Tt from '/public/tt.png';
 import Image from 'next/image';
 
 

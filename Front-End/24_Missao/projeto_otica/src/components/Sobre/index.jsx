@@ -1,6 +1,6 @@
 import estilos from './Sobre.module.css';
-import Loja from '../../../public/loja.png';
-import Atendimento from '../../../public/atendimento.png';
+import Loja from '/public/loja.png';
+import Atendimento from '/public/atendimento.png';
 import Image from 'next/image';
 
 
