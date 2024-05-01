@@ -28,3 +28,5 @@ git fetch repo
     git diff master..experimento
 - Remover arquivo do stage sem marcá-lo para exclusão
     git reset HEAD funcao.js
+- ara restaurar o arquivo 'loja.php' para a última versão commitada no repositório local, o desenvolvedor pode usar o seguinte comando:
+    git checkout -- loja.php
