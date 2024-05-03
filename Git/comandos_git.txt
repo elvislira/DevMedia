@@ -6,27 +6,53 @@ git tag 4.0.0 a98268ab380ga9059cf587de851b989f09c71fbb
 
 - Checar por alterações no diretório de trabalho;
     git status
+
 - Adicionar o arquivo index.html ao stage;
     git add index.html
+
 - Remover o restante dos arquivos da working area;
     git clean -f
+
 - Commitar as alterações.
     git commit -m "index.html"
+
 - verificar quais arquivos seriam excluídos
     git clean -n 
+
 - Excluir arquivos da working area
     git clean -f
+
 - Excluir uma branch
     git branch -d developer
     git branch -D developer
+
 - Para configurar um repositório remoto chamado 'experimento' que aponta para a URL 'https://github.com/devuser/experiencia.git', 
     git remote add experimento https://github.com/devuser/experiencia.git
+
 - configurar um repositório de nome 'repo' e baixar as todas as novidades dele para sua working area
     git remote add repo https://github.com/devuser/development.git
-git fetch repo
+    git fetch repo
+
 - Diferença entre as branchs master (ativa) e experimento
     git diff master..experimento
+
 - Remover arquivo do stage sem marcá-lo para exclusão
     git reset HEAD funcao.js
-- ara restaurar o arquivo 'loja.php' para a última versão commitada no repositório local, o desenvolvedor pode usar o seguinte comando:
+
+- Para restaurar o arquivo 'loja.php' para a última versão commitada no repositório local, o desenvolvedor pode usar o seguinte comando:
     git checkout -- loja.php
+
+- Mudar a mensagem do último commit:
+    git commit --amend -m "mensagem"
+
+- Voltar para um dado commit:
+    git reset --soft hash_commit --> Volta os arquivos dos commits anteriores para o stage
+    git reset --mixed hash_commit --> volta os arquivos para working area (padrão).
+    git reset --hard --> descarta todos os arquivos.
+
+- Histórico mais detalhado:
+    git reflog
+
+- Retirando arquivos da stage area:
+    git reset arquivo
+    git restore --staged arquivo
