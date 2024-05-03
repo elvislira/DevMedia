@@ -8,15 +8,15 @@ import Image from 'next/image';
 export default function Home() {
   return (
     <main className={estilos.home}>
-      <section className={estilos.secao_capa}>
+      <section className={estilos.home_secao_capa}>
         <h1>Sorvete Artesanal</h1>
       </section>
 
-      <section className={estilos.secao_sabores}>
+      <section className={estilos.home_secao_sabores}>
         <div>
-          <Image className={estilos.secao_img} src={Sabores} alt="Sabores" />
+          <Image className={estilos.home_secao_img} src={Sabores} alt="Sabores" />
         </div>
-        <div className={estilos.secao_textos}>
+        <div className={estilos.home_secao_textos}>
           <h2>Nossos sabores</h2>
           <span>Novos e deliciosos</span>
           <p>
@@ -25,8 +25,8 @@ export default function Home() {
         </div>
       </section>
 
-      <section className={estilos.secao_eventos}>
-        <div className={estilos.secao_textos}>
+      <section className={estilos.home_secao_eventos}>
+        <div className={estilos.home_secao_textos}>
           <h2>Nossos eventos</h2>
           <span>Delicias com sorvete!</span>
           <p>
@@ -34,15 +34,15 @@ export default function Home() {
           </p>
         </div>
         <div>
-          <Image className={estilos.secao_img} src={Eventos} alt="Eventos" />
+          <Image className={estilos.home_secao_img} src={Eventos} alt="Eventos" />
         </div>
       </section>
 
-      <section className={estilos.secao_sobre}>
+      <section className={estilos.home_secao_sobre}>
         <div>
-          <Image className={estilos.secao_img} src={Sobre} alt="Sobre" />
+          <Image className={estilos.home_secao_img} src={Sobre} alt="Sobre" />
         </div>
-        <div className={estilos.secao_textos}>
+        <div className={estilos.home_secao_textos}>
           <h2>Nossos eventos</h2>
           <span>Alegria em cada casquinha!</span>
           <p>
