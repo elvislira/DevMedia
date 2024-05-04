@@ -18,6 +18,14 @@
     color: #ffffff;
     text-shadow: 3px 5px 2px #474747;
     text-transform: uppercase;
+
+    @media (max-width: 768px) {
+        font-size: 60px;
+    }
+
+    @media (max-width: 375px) {
+        font-size: 30px;
+    }
 }
 
 .sabores_subtitulo {

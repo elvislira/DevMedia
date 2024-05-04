@@ -18,6 +18,14 @@
     color: #ffffff;
     text-shadow: 3px 5px 2px #474747;
     text-transform: uppercase;
+
+    @media (max-width: 768px) {
+        font-size: 60px;
+    }
+
+    @media (max-width: 375px) {
+        font-size: 30px;
+    }
 }
 
 .home_secao_sabores,
@@ -65,6 +73,10 @@
 
     @media (max-width: 768px) {
         padding: 20px 30px;
+    }
+
+    @media (max-width: 375px) {
+        padding: 2px;
     }
 }
 
