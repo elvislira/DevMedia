@@ -60,9 +60,8 @@
 }
 
 .home_secao_textos {
-    padding: 30px 40px;
+    padding: 50px 50px;
     line-height: 30px;
-    font-size: 14px;
 
     @media (max-width: 768px) {
         padding: 20px 30px;

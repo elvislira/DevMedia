@@ -20,6 +20,10 @@
     text-transform: uppercase;
 }
 
+.sabores_subtitulo {
+    text-transform: uppercase;
+}
+
 .sabores_container {
     width: 100%;
     display: flex;
@@ -55,11 +59,3 @@
     width: 100%;
     height: auto;
 }
-
-/* .sabores_subtitulo {
-    text-transform: uppercase;
-    text-align: center;
-    margin: 30px 0;
-} */
-
-
