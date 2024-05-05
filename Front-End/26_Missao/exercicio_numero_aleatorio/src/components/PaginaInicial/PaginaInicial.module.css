@@ -1,0 +1,40 @@
+.container_pinicial {
+   width: 100%;
+   height: 100vh;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.container_moldura {
+    width: 40%;
+    height: 30%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+    font-weight: bold;
+
+    box-shadow: inset 0 0 5px 2px #1fb2bd;
+}
+
+.container_moldura h1 {
+    font-size: 36px;
+    color: #2a6d0f;
+}
+
+.container_moldura button {
+    width: 160px;
+    height: 35px;
+
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #1fb2bd;
+    border-radius: 5px;
+    border: 0;
+}
