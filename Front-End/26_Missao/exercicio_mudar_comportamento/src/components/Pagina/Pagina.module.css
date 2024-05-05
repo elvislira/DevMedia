@@ -1,0 +1,14 @@
+.bg_vermelho,
+.bg_verde {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #000000;
+}
+
+.bg_vermelho {
+    background-color: #ff0000;
+}
+
+.bg_verde {
+    background-color: #008000;
+}
