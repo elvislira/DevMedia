@@ -1,0 +1,14 @@
+Para usar props:
+    1. Importar o componente e passar os valores ao usar:
+        <Componente 
+            valor1="conteudo"
+            valor2=valor
+            ...
+        />
+    2. No componente é recebido pelo parâmetro props:
+        export default function Componente(props) {
+            return (
+                <h1>{props.valor1}</h1>
+                ...
+            );
+        }
