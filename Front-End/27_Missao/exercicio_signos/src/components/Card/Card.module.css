@@ -1,0 +1,17 @@
+.container_card {
+    width: 150px;
+    height: 200px;
+    background-color: #734136;
+    color: #ffffff;
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img_card {
+    width: 95%;
+    height: auto;
+}
