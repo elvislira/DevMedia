@@ -1,0 +1,11 @@
+.container_main {
+    width: 100%;
+}
+
+.tema_claro {
+    background-color: #ffffff;
+}
+
+.tema_escuro {
+    background-color: #252525;
+}

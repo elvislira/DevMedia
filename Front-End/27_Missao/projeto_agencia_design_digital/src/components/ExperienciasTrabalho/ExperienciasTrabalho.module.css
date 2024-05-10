@@ -1,0 +1,34 @@
+.container_et {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+}
+
+.container_et h2 {
+    position: relative;
+}
+
+.container_et h2::before {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 50%;
+    width: 10%;
+    height: 2px;
+    background-color: #feb633;
+    transform: translateX(-50%);
+}
+
+.container_cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    text-align: left;
+}
