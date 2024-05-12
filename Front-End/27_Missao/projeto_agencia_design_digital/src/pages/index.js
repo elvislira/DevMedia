@@ -41,7 +41,11 @@ export default function Home() {
           tema={isTema ? estilos.tema_claro : estilos.tema_escuro}
         />
 
-        <ExperienciasTrabalho />
+        <ExperienciasTrabalho 
+          tema={isTema ? estilos.tema_claro_experiencias : estilos.tema_escuro_experiencias}
+          tema_fonte1={isTema ? estilos.tema_claro_font1 : estilos.tema_escuro_font1}
+          tema_fonte2={isTema ? estilos.tema_claro_font2 : estilos.tema_escuro_font2}
+        />
 
         <Rodape 
           logo={Logo}

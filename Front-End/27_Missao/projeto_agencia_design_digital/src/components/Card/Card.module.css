@@ -1,3 +1,13 @@
 .container_card {
-    width: 30%;
+    padding: 50px 20px;
+    border: 1px solid #8a8fa3;
+
+    @media (max-width: 768px) {
+        margin: 0 10px;
+    }
+}
+
+.container_card:hover {
+    background-color: #feb633;
+    cursor: pointer;
 }

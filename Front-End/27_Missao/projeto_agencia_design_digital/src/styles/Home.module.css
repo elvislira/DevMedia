@@ -6,6 +6,30 @@
     background-color: #ffffff;
 }
 
+.tema_claro_font1 {
+    color: #32333c;
+}
+
+.tema_claro_font2 {
+    color: #8a8fa3;
+}
+
 .tema_escuro {
     background-color: #252525;
+}
+
+.tema_escuro_font1 {
+    color: #cccccc;
+}
+
+.tema_escuro_font2 {
+    color: #9f9f9f;
+}
+
+.tema_claro_experiencias {
+    background-color: #f6f8fc;
+}
+
+.tema_escuro_experiencias {
+    background-color: #393838;
 }
