@@ -1,0 +1,26 @@
+- Array.map
+    umArrayQualquer.map(
+        (itemArray, index) => {
+            return (
+                <Componente 
+                    key={index} 
+                    campo={itemArray.propriedade}
+                    ...
+            )
+        }
+    );
+
+    umArrayQualquer.map(
+        (itemArray, index) =>  (
+                <Componente 
+                    key={index} 
+                    campo={itemArray.propriedade}
+                    ...
+            )
+    );
+
+- Array.filter
+    const colecaoFiltrada = colecaoDados.filter(
+        item => item.campo === valor
+    );
+
